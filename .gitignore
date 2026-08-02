@@ -1,0 +1,15 @@
+# AutoHotkey runtime (bundled in releases, not in git)
+打字机插件/AutoHotkey/
+
+# Distribution archives
+*.zip
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
