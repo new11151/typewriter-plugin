@@ -81,7 +81,3 @@ To run at startup, create a shortcut to `启动打字机.bat` and place it in th
 ## How It Works
 
 The script uses the Windows `SendInput` API to send Unicode characters directly, bypassing the input method editor (IME) for maximum compatibility with Chinese and other non-ASCII text. Line breaks are sent as `{Enter}` and tabs as `{Tab}` to ensure proper formatting across all applications.
-
-## License
-
-MIT
