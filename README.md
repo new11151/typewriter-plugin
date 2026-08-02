@@ -1,5 +1,27 @@
 # Typewriter Plugin (打字机插件)
 
+> **中文简介**：一个基于 AutoHotkey v2 的轻量级打字机插件，能把剪贴板里的文字像真人一样**逐字打出**。支持快捷键开关、按任意键停止、保留空格换行格式、实时调速，内置运行时开箱即用。适用于 Word、记事本、网页、聊天软件等任何能输入文字的地方。
+>
+> **English**: A lightweight AutoHotkey v2 tool that types clipboard text **character by character**, simulating real human typing. Works anywhere you can type — Word, Notepad, browsers, chat apps, etc. Features toggle shortcut, stop-on-any-key, format preservation, real-time speed control, and a bundled runtime with zero installation.
+
+## 效果演示 / Demo
+
+```
+剪贴板内容:  Hello 世界！
+              ↓  按 Ctrl+V（打字机模式已开启）
+实际输出:    H → e → l → l → o →  → 世 → 界 → ！
+              每个字逐个打出，按任意键即可停止
+```
+
+## 使用场景 / Use Cases
+
+- **录入模拟**：模拟真人打字效果，适合演示场景
+- **防检测**：避免一次性粘贴被系统识别为机器操作
+- **直播/录屏**：让观众看到文字逐字出现的过程
+- **跨应用输入**：在不支持粘贴的地方用打字方式输入
+
+---
+
 A lightweight AutoHotkey v2 tool that types clipboard text **character by character**, simulating real human typing. Works anywhere you can type — Word, Notepad, browsers, chat apps, etc.
 
 ## Features
